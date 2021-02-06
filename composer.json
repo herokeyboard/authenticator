@@ -1,0 +1,39 @@
+{
+    "name": "herokeyboard/authenticator",
+    "type": "library",
+    "description": "Authenticator",
+    "version": "1.0.0",
+    "keywords": [
+    "herokeyboard",
+    "Authenticator"
+    ],
+    "homepage": "https://github.com/herokeyboard/authenticator/",
+    "license": "MIT",
+    "authors": [
+    {
+    	"name":"Herokeyboard",
+    	"email": "herokeyboard@github.com",
+        "homepage": "https://github.com/herokeyboard/authenticator",
+        "role": "Developer"
+    },
+        {
+        "name":"Herokeyboard",
+    	"email": "herokeyboard@github.com",
+        "homepage": "https://github.com/herokeyboard/authenticator",
+        "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "support": {
+        "issues": "https://github.com/herokeyboard/authenticator/issues",
+        "source": "https://github.com/herokeyboard/authenticator/releases"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Herokeyboard\\": "src/"
+        }
+    }
+}
